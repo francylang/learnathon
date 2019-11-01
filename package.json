@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "cd ios && pod install && cd .. && react-native run-ios",
+    "ios": "cd ios && pod install && cd .. && react-native run-ios --project-path ./ios",
     "start": "react-native start",
     "test": "jest",
     "pod-install": "./ios pod install"
